@@ -1,0 +1,132 @@
+body {
+  width: 320px;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 16px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.api-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+}
+
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+#saveKey {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  padding: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#saveKey:hover {
+  background-color: #bdc3c7;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.primary-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+}
+
+.status-msg {
+  text-align: center;
+  font-size: 0.85rem;
+  min-height: 20px;
+  margin-top: 8px;
+  color: #666;
+}
+
+.result-box {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #27ae60;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#answerText {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #27ae60;
+}

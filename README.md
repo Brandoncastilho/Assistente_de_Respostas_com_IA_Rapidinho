@@ -1,4 +1,3 @@
-
 # ⚡ Rápidinho - Assistente de Respostas com IA
 
 **Rápidinho** é uma extensão para Google Chrome que utiliza a inteligência artificial do Google Gemini para analisar perguntas em sua tela e destacar a resposta correta instantaneamente.
@@ -27,7 +26,7 @@ Como esta é uma extensão em desenvolvimento (unpacked), a instalação é manu
 1. **Baixe o código**:
    - Clone este repositório ou baixe o arquivo ZIP e extraia em uma pasta.
    ```bash
-   git clone https://github.com/Brandoncastilho/rapidinho.git
+   git clone https://github.com/SEU_USUARIO/rapidinho.git
    ```
 
 2. **Carregue no Chrome**:
