@@ -26,7 +26,7 @@ Como esta é uma extensão em desenvolvimento (unpacked), a instalação é manu
 1. **Baixe o código**:
    - Clone este repositório ou baixe o arquivo ZIP e extraia em uma pasta.
    ```bash
-   git clone https://github.com/SEU_USUARIO/rapidinho.git
+   git clone https://github.com/Brandoncastilho/rapidinho.git
    ```
 
 2. **Carregue no Chrome**:
@@ -68,3 +68,4 @@ Este projeto está sob a licença MIT. Sinta-se livre para contribuir ou modific
 
 ---
 *Desenvolvido com ⚡ para agilizar seus estudos.*
+
